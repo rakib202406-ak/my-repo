@@ -1,4 +1,23 @@
-h1 :no-button
-:nth-last-of-type
-::-moz-list-number656
-ul jygu
+/* styles.css */
+body {
+    /* Set a gradient background from purple to teal */
+    background: linear-gradient(to right, #6a3093, #a044ff, #2575fc);
+    
+    /* Sets a clean, modern font */
+    font-family: Arial, sans-serif;
+    
+    /* Sets the text color to white for better contrast */
+    color: white;
+    
+    /* Removes default margin and padding */
+    margin: 0;
+    padding: 0;
+    
+    /* Enables flexbox layout to center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Makes the body take the full height of the viewport */
+    height: 100vh;
+}
